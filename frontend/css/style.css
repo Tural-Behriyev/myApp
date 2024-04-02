@@ -1,0 +1,10 @@
+.users {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.users .user img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
